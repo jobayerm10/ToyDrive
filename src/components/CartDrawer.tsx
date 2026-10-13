@@ -62,7 +62,7 @@ export function CartDrawer() {
           </div>
         ) : (
           <>
-            <ul className="flex-1 divide-y divide-slate-line overflow-y-auto px-6">
+            <ul className="flex-1 divide-y divide-slate-line overflow-y-auto px-6" data-lenis-prevent>
               {items.map((item) => (
                 <li key={item.product.id} className="flex gap-4 py-5">
                   <Link
